@@ -1,4 +1,4 @@
-od::Spec.new do |spec|
+pod::Spec.new do |spec|
 
   spec.name         = "UGBPaymentSwiftSDK"
   spec.version      = "0.0.1"
