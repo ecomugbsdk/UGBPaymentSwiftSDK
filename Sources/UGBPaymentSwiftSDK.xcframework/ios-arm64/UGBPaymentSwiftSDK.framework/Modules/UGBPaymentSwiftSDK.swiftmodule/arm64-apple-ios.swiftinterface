@@ -1,0 +1,179 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name UGBPaymentSwiftSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import SwiftUI
+@_exported import UGBPaymentSwiftSDK
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public enum PaymentAction {
+  case purchase
+  public static func == (a: UGBPaymentSwiftSDK.PaymentAction, b: UGBPaymentSwiftSDK.PaymentAction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class PaymentData {
+  public var merchantConfig: UGBPaymentSwiftSDK.MerchantConfig
+  public var amountConfig: UGBPaymentSwiftSDK.AmountConfig
+  public var transactionConfig: UGBPaymentSwiftSDK.TransactionConfig
+  public init(merchantConfig: UGBPaymentSwiftSDK.MerchantConfig, amountConfig: UGBPaymentSwiftSDK.AmountConfig, transactionConfig: UGBPaymentSwiftSDK.TransactionConfig)
+  @objc deinit
+}
+extension UGBPaymentSwiftSDK.ColorSettings {
+  public func setDefaultColors()
+}
+@_hasMissingDesignatedInitializers public class NetworkManager {
+  @objc deinit
+}
+public enum Environment {
+  case development
+  case production
+  public static func == (a: UGBPaymentSwiftSDK.Environment, b: UGBPaymentSwiftSDK.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class UGBPaymentSwiftSDK {
+  public var mainController: UIKit.UIViewController
+  public var successController: UIKit.UIViewController
+  public var errorController: UIKit.UIViewController
+  public init()
+  public func setColorSettings(customColors: UGBPaymentSwiftSDK.ColorSettings)
+  public func setTextSettings(customTexts: UGBPaymentSwiftSDK.TextSettings)
+  public var paymentCompletion: ((UGBPaymentSwiftSDK.ResultData) -> Swift.Void)?
+  public func presentLibraryViewController(from parentViewController: UIKit.UIViewController, toSuccess successController: UIKit.UIViewController, toError errorController: UIKit.UIViewController, environment: UGBPaymentSwiftSDK.Environment, paymentData: UGBPaymentSwiftSDK.PaymentData)
+  @objc deinit
+}
+public class TransactionConfig {
+  public var orderID: Swift.String?
+  public var action: UGBPaymentSwiftSDK.PaymentAction?
+  public init(orderID: Swift.String? = "", action: UGBPaymentSwiftSDK.PaymentAction? = .purchase)
+  @objc deinit
+}
+extension UIKit.UIColor {
+  public static func colorFromHex(_ hex: Swift.String) -> UIKit.UIColor
+}
+@_hasMissingDesignatedInitializers public class LongPollingManager {
+  public var paymentCompletion: ((UGBPaymentSwiftSDK.ResultData) -> Swift.Void)?
+  public func setCardData(cardNumber: Swift.String, cardExpiryMonth: Swift.String, cardExpiryYear: Swift.String, cardCVV: Swift.String)
+  public func setStep(step: Swift.String)
+  public func messagePollingValidate(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  public func initPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
+  public func startPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+public class AmountConfig {
+  public var amount: Swift.String?
+  public var currency: Swift.String?
+  public var commission: Swift.String?
+  public init(amount: Swift.String? = "", currency: Swift.String? = "", commission: Swift.String? = "")
+  @objc deinit
+}
+public class ColorSettings {
+  public static let shared: UGBPaymentSwiftSDK.ColorSettings
+  public var buttonPayEnabledColor: UIKit.UIColor?
+  public var buttonPayDisabledColor: UIKit.UIColor?
+  public var buttonPayTextColor: UIKit.UIColor?
+  public var buttonPayEnabledTextColor: UIKit.UIColor?
+  public var buttonPayDisabledTextColor: UIKit.UIColor?
+  public var infoTextBackgroundColor: UIKit.UIColor?
+  public var infoTextColor: UIKit.UIColor?
+  public var summaryBackgroundColor: UIKit.UIColor?
+  public var summaryTextColor: UIKit.UIColor?
+  public var summarySeparatorColor: UIKit.UIColor?
+  public var textFieldColor: UIKit.UIColor?
+  public var textFieldPlaceholderColor: UIKit.UIColor?
+  public var textFieldActiveBorderColor: UIKit.UIColor?
+  public var textFieldInactiveBorderColor: UIKit.UIColor?
+  public var textFieldLabelTextColor: UIKit.UIColor?
+  public var alertGradientColors: [CoreGraphics.CGColor]?
+  public var alertBackgroundColor: UIKit.UIColor?
+  public var alertEmojiLabelColor: UIKit.UIColor?
+  public var alertTextLabelColor: UIKit.UIColor?
+  public var navigationButtonColor: UIKit.UIColor?
+  public var viewBackgroundColor: UIKit.UIColor?
+  public var loaderDimmingBackgroundColor: UIKit.UIColor?
+  public var loaderStrokeColor: UIKit.UIColor?
+  public var modalViewSuccessBackgroundColor: UIKit.UIColor?
+  public var modalViewErrorBackgroundColor: UIKit.UIColor?
+  public var errorResultViewBackgroundColor: UIKit.UIColor?
+  public var errorResultDefaultBackgroundColor: UIKit.UIColor?
+  public var errorResultShadowColor: UIKit.UIColor?
+  public var errorResultLabelColor: UIKit.UIColor?
+  public var errorResultButtonBorderColor: UIKit.UIColor?
+  public var errorResultButtonBackgrundColor: UIKit.UIColor?
+  public var errorResultButtonTitleColor: UIKit.UIColor?
+  public var successResultViewBackgroundColor: UIKit.UIColor?
+  public var successResultDefaultBackgroundColor: UIKit.UIColor?
+  public var successResultShadowColor: UIKit.UIColor?
+  public var successResultLabelColor: UIKit.UIColor?
+  public var successResultButtonBorderColor: UIKit.UIColor?
+  public var successResultButtonBackgroundColor: UIKit.UIColor?
+  public var successResultButtonTitleColor: UIKit.UIColor?
+  public var bottomPanelWithLogosColor: UIKit.UIColor?
+  public init()
+  @objc deinit
+}
+public class MerchantConfig {
+  public var apiKey: Swift.String?
+  public var merchantName: Swift.String?
+  public var sessionToken: Swift.String?
+  public init(apiKey: Swift.String? = "", merchantName: Swift.String? = "", sessionToken: Swift.String? = "empty")
+  @objc deinit
+}
+public class TextSettings {
+  public static let shared: UGBPaymentSwiftSDK.TextSettings
+  public var buttonPayEnabledTextString: Swift.String
+  public var buttonPayDisabledTextString: Swift.String
+  public var infoTextString: Swift.String
+  public var sumLabelTextString: Swift.String
+  public var commissionLabelTextString: Swift.String
+  public var totalLabelTextString: Swift.String
+  public var cardNumberPlaceholderString: Swift.String
+  public var expiryDatePlaceholderString: Swift.String
+  public var cvvPlaceholderString: Swift.String
+  public var cardNumberLabelString: Swift.String
+  public var expiryDateLabelString: Swift.String
+  public var cvvLabelString: Swift.String
+  public var toolbarDoneButtonString: Swift.String
+  public var alertTextString: Swift.String
+  public var alertEmojiString: Swift.String
+  public var navigationButtonString: Swift.String
+  public var successEmojiString: Swift.String
+  public var successMessageString: Swift.String
+  public var successHintString: Swift.String
+  public var continueButtonTitleString: Swift.String
+  public var errorEmojiString: Swift.String
+  public var errorMessageString: Swift.String
+  public var errorHintString: Swift.String
+  public var errorButtonTitleString: Swift.String
+  public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ResultData {
+  public var status: Swift.String
+  public var description: Swift.String?
+  public var rrn: Swift.String?
+  public var errorCode: Swift.String?
+  public var orderID: Swift.String?
+  public var amount: Swift.String?
+  public var currency: Swift.String?
+  public var termID: Swift.String?
+  public var timestamp: Swift.String?
+  public var transactionReference: Swift.String?
+  @objc deinit
+}
+extension UGBPaymentSwiftSDK.TextSettings {
+  public func setDefaultText()
+}
+extension UGBPaymentSwiftSDK.PaymentAction : Swift.Equatable {}
+extension UGBPaymentSwiftSDK.PaymentAction : Swift.Hashable {}
+extension UGBPaymentSwiftSDK.Environment : Swift.Equatable {}
+extension UGBPaymentSwiftSDK.Environment : Swift.Hashable {}
