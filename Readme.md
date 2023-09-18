@@ -1,5 +1,18 @@
-# UGBPaymentSwiftSDKSource
+# UGBPaymentSwiftSDK
 
+
+# Install
+With Cocoapods
+
+```ruby
+pod 'UGBPaymentSwiftSDK', :git => 'https://github.com/ecomugbsdk/UGBPaymentSwiftSDK.git', :tag => '0.1.0'
+```
+
+While using UGBPaymentSwiftSDK, don’t forget:
+
+```swift
+import UGBPaymentSwiftSDK
+```
 
 # Requirements
 iOS 11.0+ Required
@@ -9,7 +22,7 @@ iOS 11.0+ Required
 Init the UGBPaymentSwiftSDK library. For example:
 
 ```swift
-private let ugbPaymentSDK = UGBPaymentSwiftSDK()
+private let ugbPaymentSDK = UGBPaymentSDK()
 ```
 
 Supported server **Environment**:  
