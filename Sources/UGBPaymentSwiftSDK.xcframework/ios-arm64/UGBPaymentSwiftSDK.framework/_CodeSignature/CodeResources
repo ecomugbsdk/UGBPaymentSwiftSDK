@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		Gm8m3yXWEv9+CRONcpGHHBycug0=
+		</data>
 		<key>Headers/UGBPaymentSwiftSDK-Swift.h</key>
 		<data>
 		KanOR+7zGO4dzKRe/z2odtK+9hA=
@@ -47,6 +51,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PlTR6Kx2XS08/e+cj16EWj90sNWwY53JCJyD0SkSe1Q=
+			</data>
+		</dict>
 		<key>Headers/UGBPaymentSwiftSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
