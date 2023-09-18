@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		afUFGD/cro6PGt3NTnaPAYNgQ8M=
+		1SSQzg0/3xBa119hlyf+y8BtKcM=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WNIxbtDD2++y5A2h1ZiJOxHNOnk=
+		mUyEvcrNe+6OVT5EahoNHj33lhY=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		tuAAvsCE1C7mBiI7T3gcK4hNQUg=
+		JmhT6XmbgVQCADfFcxDMmiVpydM=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		tuAAvsCE1C7mBiI7T3gcK4hNQUg=
+		JmhT6XmbgVQCADfFcxDMmiVpydM=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Dp8pmzG1ysPWma0Br9jwn7lJC8o=
+		ueDCY3TDEiDc49nNFog0T0ho7z0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,21 +65,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kMQK5nLMuL9YfDdzPJw5uWlTjKEqK2KulUTxaFpVLb0=
+			4YzmSzwVjYXaazl3omi2HQL0CqHLaELBb3i9ptFC9FE=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A0KZvlLBEG5r30mbNhIHz2r4pky6IvJbnkh1bK6nVIM=
+			acmSThi7yVORIkH0tdNzotQiQPpSQDmxHgTZHtIxrwE=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jcf3PlsTi5nMY+h8kPkxd05ST+UTpeRzyFMzZnorkY4=
+			Zmn/ODWFlohaO4FgScniG2O10//HWjaXPubDhP204Co=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jcf3PlsTi5nMY+h8kPkxd05ST+UTpeRzyFMzZnorkY4=
+			Zmn/ODWFlohaO4FgScniG2O10//HWjaXPubDhP204Co=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ebnU+c1A9EIModQwwNCZzEVWpiJiT2ZxUNo4J9U6D4=
+			H29ulb/n1I0NuWv641bavf0SPQQKA9D0eKZY0WJ6j/U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
