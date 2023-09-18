@@ -11,7 +11,7 @@ pod 'UGBPaymentSwiftSDK', :git => 'https://github.com/ecomugbsdk/UGBPaymentSwift
 While using UGBPaymentSwiftSDK, don’t forget:
 
 ```swift
-import UGBPaymentSwiftSDK
+import UGBPaymentSDK
 ```
 
 # Requirements
@@ -29,7 +29,7 @@ Supported server **Environment**:
 
 ```swift
 public enum Environment {
-    case sandbox
+    case development
     case production
 }
 ```
