@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "UGBPaymentSwiftSDK"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
 
   spec.summary      = "UGBPaymentSwiftSDK create for payments in app IOS."
   spec.description  = "UGBPaymentSwiftSDK see on https://github.com/ecomugbsdk/UGBPaymentSwiftSDK.git."
@@ -16,5 +16,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/ecomugbsdk/UGBPaymentSwiftSDK.git", :tag => "#{spec.version}" }
 
   spec.vendored_frameworks = 'Sources/*.xcframework'
+  spec.resource_bundles = {
+    'UGBPaymentSwiftSDK' => ['UGBPaymentSwiftSDK/Assets/*.png']
+}
 
 end
