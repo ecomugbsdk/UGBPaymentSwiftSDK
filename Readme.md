@@ -132,7 +132,7 @@ customTextStrings.buttonPayEnabledTextString = "Сплатити"
 customTextStrings.buttonPayDisabledTextString = "Сплатити"
 
 // Texts for InfoText
-customTextStrings.infoTextString = "Транзакція обробляється платіжною компанією ТОВ «ФК «Єдиний простір».Натискаючи «Сплатити», ви погоджуєтесь з умовами Публічної оферти. Виникли питання?"
+customTextStrings.infoTextString = "Транзакція обробляється ПАТ «УКРГАЗБАНК». Натискаючи «Сплатити», ви погоджуєтесь з умовами Публічної оферти. Виникли питання?"
 
 // Texts for PaymentSummary
 customTextStrings.sumLabelTextString = "Сума до сплати:"
