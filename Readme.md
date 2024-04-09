@@ -15,7 +15,7 @@ import UGBPaymentSDK
 ```
 
 # Requirements
-iOS 11.0+ Required
+iOS 12.0+ Required
 
 
 # SDK configuration
@@ -274,9 +274,9 @@ ugbPaymentSDK.presentLibraryViewController(
 ```
 `from` - UIViewController for displaying payment View
 
-`toSuccess` - UIViewController where redirect user after success payment
+`toSuccess` - UIViewController where redirect user after success payment(can take nil value)
 
-`toError` - UIViewController where redirect user after error payment
+`toError` - UIViewController where redirect user after error payment(can take nil value)
 
 `environment` - environment you want to use
 

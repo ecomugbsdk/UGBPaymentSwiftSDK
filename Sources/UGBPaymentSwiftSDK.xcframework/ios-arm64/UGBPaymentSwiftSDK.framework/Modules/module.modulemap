@@ -1,7 +1,7 @@
 framework module UGBPaymentSwiftSDK {
   umbrella header "UGBPaymentSwiftSDK.h"
-
   export *
+
   module * { export * }
 }
 

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "UGBPaymentSwiftSDK"
-  spec.version      = "0.1.0"
+  spec.version      = "0.2.0"
 
   spec.summary      = "UGBPaymentSwiftSDK create for payments in app IOS."
   spec.description  = "UGBPaymentSwiftSDK see on https://github.com/ecomugbsdk/UGBPaymentSwiftSDK.git."
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "12.0"
   spec.author       = { "BohdanPotorochyn" => "bpotorochyn@ukrgasbank.com" }
   spec.source       = { :git => "https://github.com/ecomugbsdk/UGBPaymentSwiftSDK.git", :tag => "#{spec.version}" }
 
