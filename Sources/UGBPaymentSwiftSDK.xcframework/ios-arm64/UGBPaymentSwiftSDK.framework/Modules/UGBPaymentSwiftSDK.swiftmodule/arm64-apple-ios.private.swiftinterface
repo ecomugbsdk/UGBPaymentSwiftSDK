@@ -1,19 +1,21 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name UGBPaymentSwiftSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name UGBPaymentSwiftSDK
 import DeveloperToolsSupport
 import Foundation
+import PassKit
 import Swift
 import SwiftUI
 @_exported import UGBPaymentSwiftSDK
 import UIKit
 import WebKit
 import _Concurrency
+import _PassKit_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
 public enum PaymentAction {
   case purchase
+  case purchase_apay
   public static func == (a: UGBPaymentSwiftSDK.PaymentAction, b: UGBPaymentSwiftSDK.PaymentAction) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -24,7 +26,8 @@ public class PaymentData {
   public var merchantConfig: UGBPaymentSwiftSDK.MerchantConfig
   public var amountConfig: UGBPaymentSwiftSDK.AmountConfig
   public var transactionConfig: UGBPaymentSwiftSDK.TransactionConfig
-  public init(merchantConfig: UGBPaymentSwiftSDK.MerchantConfig, amountConfig: UGBPaymentSwiftSDK.AmountConfig, transactionConfig: UGBPaymentSwiftSDK.TransactionConfig)
+  public var applePayConfig: UGBPaymentSwiftSDK.ApplePayConfig?
+  public init(merchantConfig: UGBPaymentSwiftSDK.MerchantConfig, amountConfig: UGBPaymentSwiftSDK.AmountConfig, transactionConfig: UGBPaymentSwiftSDK.TransactionConfig, applePayConfig: UGBPaymentSwiftSDK.ApplePayConfig?)
   @objc deinit
 }
 extension UGBPaymentSwiftSDK.ColorSettings {
@@ -53,6 +56,12 @@ public class UGBPaymentSDK {
   public func presentLibraryViewController(from parentViewController: UIKit.UIViewController, toSuccess successController: UIKit.UIViewController?, toError errorController: UIKit.UIViewController?, environment: UGBPaymentSwiftSDK.Environment, paymentData: UGBPaymentSwiftSDK.PaymentData)
   @objc deinit
 }
+public class ApplePayConfig {
+  public var merchantId: Swift.String?
+  public var countryCode: Swift.String?
+  public init(merchantId: Swift.String? = "", countryCode: Swift.String? = "")
+  @objc deinit
+}
 public class TransactionConfig {
   public var orderID: Swift.String?
   public var action: UGBPaymentSwiftSDK.PaymentAction?
@@ -66,6 +75,7 @@ extension UIKit.UIColor {
   public var paymentCompletion: ((UGBPaymentSwiftSDK.ResultData) -> Swift.Void)?
   public func setCardData(cardNumber: Swift.String, cardExpiryMonth: Swift.String, cardExpiryYear: Swift.String, cardCVV: Swift.String)
   public func setStep(step: Swift.String)
+  public func messagePollingValidateApay(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void, token: Swift.String)
   public func messagePollingValidate(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void)
   public func initPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
   public func startPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
