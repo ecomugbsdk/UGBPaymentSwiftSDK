@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "UGBPaymentSwiftSDK",
+    "printedName": "UGBPaymentSwiftSDK",
     "children": [
       {
         "kind": "Import",
@@ -195,6 +195,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -665,6 +679,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -881,6 +911,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -899,6 +943,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -962,8 +1013,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -1077,8 +1129,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -1210,6 +1263,7 @@
             "mangledName": "$s18UGBPaymentSwiftSDK26ModalSuccessViewControllerC04mainfG007successfG0ACSo06UIViewG0CSg_AHtcfc",
             "moduleName": "UGBPaymentSwiftSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "init_kind": "Designated"
@@ -1249,6 +1303,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -1275,6 +1330,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1301,6 +1357,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1323,6 +1380,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1378,6 +1436,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1390,6 +1449,7 @@
         "moduleName": "UGBPaymentSwiftSDK",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -1400,6 +1460,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1546,8 +1620,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -1661,8 +1736,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -1794,6 +1870,7 @@
             "mangledName": "$s18UGBPaymentSwiftSDK24ModalErrorViewControllerC04mainfG005errorfG0ACSo06UIViewG0CSg_AHtcfc",
             "moduleName": "UGBPaymentSwiftSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "init_kind": "Designated"
@@ -1833,6 +1910,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -1859,6 +1937,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1885,6 +1964,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1907,6 +1987,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -1962,6 +2043,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1974,6 +2056,7 @@
         "moduleName": "UGBPaymentSwiftSDK",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -1984,6 +2067,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2297,7 +2394,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2504,6 +2617,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3083,6 +3210,45 @@
           },
           {
             "kind": "Function",
+            "name": "paymentInit",
+            "printedName": "paymentInit(from:paymentDataString:apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18UGBPaymentSwiftSDK0aC0C11paymentInit4from0D10DataString6apiKeyySo16UIViewControllerC_S2StF",
+            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C11paymentInit4from0D10DataString6apiKeyySo16UIViewControllerC_S2StF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "presentLibraryViewController",
             "printedName": "presentLibraryViewController(from:toSuccess:toError:environment:paymentData:)",
             "children": [
@@ -3206,6 +3372,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3535,6 +3717,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3748,7 +3946,23 @@
         "usr": "s:18UGBPaymentSwiftSDK8CurrencyC",
         "mangledName": "$s18UGBPaymentSwiftSDK8CurrencyC",
         "moduleName": "UGBPaymentSwiftSDK",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3889,10 +4103,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -3940,8 +4175,9 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -4039,8 +4275,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -4154,8 +4391,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -4269,8 +4507,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 3,
             "hasStorage": true,
@@ -4384,8 +4623,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 4,
             "hasStorage": true,
@@ -4499,8 +4739,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 5,
             "hasStorage": true,
@@ -4614,8 +4855,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 6,
             "hasStorage": true,
@@ -4729,8 +4971,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 7,
             "hasStorage": true,
@@ -4836,8 +5079,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 8,
             "isLet": true,
@@ -4886,8 +5130,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 9,
             "isLet": true,
@@ -4936,8 +5181,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 10,
             "isLet": true,
@@ -4986,8 +5232,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 11,
             "isLet": true,
@@ -5036,8 +5283,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 12,
             "hasStorage": true,
@@ -5135,8 +5383,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 13,
             "hasStorage": true,
@@ -5250,8 +5499,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 14,
             "hasStorage": true,
@@ -5365,8 +5615,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 15,
             "hasStorage": true,
@@ -5480,8 +5731,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 16,
             "hasStorage": true,
@@ -5586,8 +5838,9 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 17,
             "hasStorage": true,
@@ -5676,8 +5929,9 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 18,
             "hasStorage": true,
@@ -5766,8 +6020,9 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 19,
             "hasStorage": true,
@@ -5877,8 +6132,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 20,
             "hasStorage": true,
@@ -5992,7 +6248,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(environment:paymentData:mainViewController:successViewController:errorViewController:)",
+            "printedName": "init(environment:paymentData:mainViewController:pollingManager:successViewController:errorViewController:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6017,6 +6273,20 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UGBPaymentSwiftSDK.LongPollingManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LongPollingManager",
+                    "printedName": "UGBPaymentSwiftSDK.LongPollingManager",
+                    "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -6048,10 +6318,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC11environment11paymentData04maineF007successeF005erroreF0AcA11EnvironmentO_AA07PaymentI0CSo06UIViewF0CANSgAOtcfc",
-            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC11environment11paymentData04maineF007successeF005erroreF0AcA11EnvironmentO_AA07PaymentI0CSo06UIViewF0CANSgAOtcfc",
+            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC11environment11paymentData04maineF014pollingManager07successeF005erroreF0AcA11EnvironmentO_AA07PaymentI0CSo06UIViewF0CAA011LongPollingL0CSgAOSgAStcfc",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC11environment11paymentData04maineF014pollingManager07successeF005erroreF0AcA11EnvironmentO_AA07PaymentI0CSo06UIViewF0CAA011LongPollingL0CSgAOSgAStcfc",
             "moduleName": "UGBPaymentSwiftSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "init_kind": "Designated"
@@ -6091,6 +6362,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -6117,6 +6389,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6149,6 +6422,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6204,6 +6478,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6226,6 +6501,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6249,6 +6525,7 @@
             "isOpen": true,
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -6272,6 +6549,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6294,6 +6572,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6316,6 +6595,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6339,6 +6619,7 @@
             "isOpen": true,
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -6395,6 +6676,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6426,6 +6708,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6448,6 +6731,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6474,6 +6758,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6497,6 +6782,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6520,6 +6806,7 @@
             "isOpen": true,
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -6543,6 +6830,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6565,6 +6853,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6609,6 +6898,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6640,6 +6930,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6671,6 +6962,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -6694,6 +6986,7 @@
             "isOpen": true,
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -6707,6 +7000,7 @@
         "moduleName": "UGBPaymentSwiftSDK",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -6717,6 +7011,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7116,6 +7424,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7517,17 +7841,26 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PaymentData",
-                "printedName": "UGBPaymentSwiftSDK.PaymentData",
-                "usr": "s:18UGBPaymentSwiftSDK11PaymentDataC"
+                "name": "Optional",
+                "printedName": "UGBPaymentSwiftSDK.PaymentData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentData",
+                    "printedName": "UGBPaymentSwiftSDK.PaymentData",
+                    "usr": "s:18UGBPaymentSwiftSDK11PaymentDataC"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0Cvp",
-            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0Cvp",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CSgvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CSgvp",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage"
             ],
             "hasStorage": true,
@@ -7539,14 +7872,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentData",
-                    "printedName": "UGBPaymentSwiftSDK.PaymentData",
-                    "usr": "s:18UGBPaymentSwiftSDK11PaymentDataC"
+                    "name": "Optional",
+                    "printedName": "UGBPaymentSwiftSDK.PaymentData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentData",
+                        "printedName": "UGBPaymentSwiftSDK.PaymentData",
+                        "usr": "s:18UGBPaymentSwiftSDK11PaymentDataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0Cvg",
-                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0Cvg",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CSgvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CSgvg",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -7564,14 +7905,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentData",
-                    "printedName": "UGBPaymentSwiftSDK.PaymentData",
-                    "usr": "s:18UGBPaymentSwiftSDK11PaymentDataC"
+                    "name": "Optional",
+                    "printedName": "UGBPaymentSwiftSDK.PaymentData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentData",
+                        "printedName": "UGBPaymentSwiftSDK.PaymentData",
+                        "usr": "s:18UGBPaymentSwiftSDK11PaymentDataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0Cvs",
-                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0Cvs",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CSgvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CSgvs",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -7589,8 +7938,184 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CvM",
-                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CvM",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CSgvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11paymentDataAA07PaymentH0CSgvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentDataString",
+            "printedName": "paymentDataString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC17paymentDataStringSSvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC17paymentDataStringSSvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC17paymentDataStringSSvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC17paymentDataStringSSvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC17paymentDataStringSSvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC17paymentDataStringSSvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC17paymentDataStringSSvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC17paymentDataStringSSvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC6apiKeySSvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC6apiKeySSvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC6apiKeySSvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC6apiKeySSvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC6apiKeySSvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC6apiKeySSvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC6apiKeySSvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC6apiKeySSvM",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -8661,7 +9186,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(environment:paymentData:startPolling:successController:errorController:mainController:navController:)",
+            "printedName": "init(environment:paymentData:paymentDataString:startPolling:successController:errorController:mainController:navController:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8677,9 +9202,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PaymentData",
-                "printedName": "UGBPaymentSwiftSDK.PaymentData",
-                "usr": "s:18UGBPaymentSwiftSDK11PaymentDataC"
+                "name": "Optional",
+                "printedName": "UGBPaymentSwiftSDK.PaymentData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentData",
+                    "printedName": "UGBPaymentSwiftSDK.PaymentData",
+                    "usr": "s:18UGBPaymentSwiftSDK11PaymentDataC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -8723,33 +9262,131 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11environment11paymentData05startE017successController05errorL004mainL003navL0AcA11EnvironmentO_AA07PaymentI0CAA05StartE0OSo06UIViewL0CSgAs2Rtcfc",
-            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11environment11paymentData05startE017successController05errorL004mainL003navL0AcA11EnvironmentO_AA07PaymentI0CAA05StartE0OSo06UIViewL0CSgAs2Rtcfc",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11environment11paymentData0hI6String05startE017successController05errorM004mainM003navM0AcA11EnvironmentO_AA07PaymentI0CSgSSAA05StartE0OSo06UIViewM0CSgAutUtcfc",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11environment11paymentData0hI6String05startE017successController05errorM004mainM003navM0AcA11EnvironmentO_AA07PaymentI0CSgSSAA05StartE0OSo06UIViewM0CSgAutUtcfc",
             "moduleName": "UGBPaymentSwiftSDK",
             "init_kind": "Designated"
           },
           {
             "kind": "Function",
             "name": "unknownError",
-            "printedName": "unknownError()",
+            "printedName": "unknownError(showModal:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC12unknownErroryyF",
-            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC12unknownErroryyF",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC12unknownError9showModalySb_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC12unknownError9showModalySb_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unknownError",
+            "printedName": "unknownError(showModal:errorDescrption:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC12unknownError9showModal15errorDescrptionySb_SStF",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC12unknownError9showModal15errorDescrptionySb_SStF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setApiKey",
+            "printedName": "setApiKey(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC9setApiKey03apiI0ySS_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC9setApiKey03apiI0ySS_tF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNavController",
+            "printedName": "setNavController(navController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC16setNavController03navI0ySo06UIViewI0C_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC16setNavController03navI0ySo06UIViewI0C_tF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -8917,6 +9554,115 @@
             "declKind": "Func",
             "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC07messageE8Validate14withCompletionyys5Error_pSgc_tF",
             "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC07messageE8Validate14withCompletionyys5Error_pSgc_tF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initPollingV2",
+            "printedName": "initPollingV2(withCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?, [Swift.String : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?, [Swift.String : Any]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC04initE2V214withCompletionyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgSDySSypGSgtc_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC04initE2V214withCompletionyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgSDySSypGSgtc_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
@@ -9282,7 +10028,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -9719,6 +10481,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -14438,6 +15216,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -14868,6 +15662,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -17159,6 +17969,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -18456,7 +19282,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -19023,7 +19865,23 @@
         "usr": "s:18UGBPaymentSwiftSDK8CardDataC",
         "mangledName": "$s18UGBPaymentSwiftSDK8CardDataC",
         "moduleName": "UGBPaymentSwiftSDK",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -19071,8 +19929,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -19177,8 +20036,9 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -19272,6 +20132,7 @@
             "mangledName": "$s18UGBPaymentSwiftSDK07WebViewE10ControllerC11htmlContentACSS_tcfc",
             "moduleName": "UGBPaymentSwiftSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "init_kind": "Designated"
@@ -19311,6 +20172,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -19337,6 +20199,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -19359,6 +20222,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -19380,6 +20244,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -19401,6 +20266,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -19429,6 +20295,7 @@
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -19478,6 +20345,7 @@
             "objc_name": "webView:didFailNavigation:withError:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -19527,6 +20395,7 @@
             "objc_name": "webView:didFailProvisionalNavigation:withError:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -19581,6 +20450,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -19593,6 +20463,7 @@
         "moduleName": "UGBPaymentSwiftSDK",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -19603,6 +20474,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -19919,6 +20804,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -20243,6 +21142,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -20411,6 +21324,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20532,6 +21459,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20625,13 +21566,17 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI5ColorV",
         "mangledName": "$s7SwiftUI5ColorV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -20669,38 +21614,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -20745,6 +21669,35 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -20785,13 +21738,17 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI5ImageV",
         "mangledName": "$s7SwiftUI5ImageV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -20812,6 +21769,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -20855,12 +21826,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -20876,20 +21841,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/LongPollingManager\/LongPollingManagerUI\/ModalSuccessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 39,
-      "length": 26,
-      "value": "\"UGBPaymentSwiftSDK.ModalSuccessViewController\""
-    },
-    {
-      "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/LongPollingManager\/LongPollingManagerUI\/ModalErrorViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 38,
-      "length": 24,
-      "value": "\"UGBPaymentSwiftSDK.ModalErrorViewController\""
-    },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/PaymentData\/ApplePayConfig.swift",
       "kind": "StringLiteral",
@@ -20924,13 +21875,6 @@
       "offset": 145,
       "length": 30,
       "value": "\"https:\/\/ecomm.ukrgasbank.com\""
-    },
-    {
-      "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/MyViewController\/MyViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 50,
-      "length": 16,
-      "value": "\"UGBPaymentSwiftSDK.MyViewController\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/PaymentData\/TransactionConfig.swift",
@@ -21155,13 +22099,6 @@
       "offset": 1603,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/LongPollingManager\/LongPollingManagerUI\/WebViewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 34,
-      "length": 21,
-      "value": "\"UGBPaymentSwiftSDK.WebViewViewController\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/Library\/Developer\/Xcode\/DerivedData\/UGBPaymentSwiftSDK-cnrrwpeoobxmauacahvlbrtjbwnd\/Build\/Intermediates.noindex\/UGBPaymentSwiftSDK.build\/Debug-iphonesimulator\/UGBPaymentSwiftSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
