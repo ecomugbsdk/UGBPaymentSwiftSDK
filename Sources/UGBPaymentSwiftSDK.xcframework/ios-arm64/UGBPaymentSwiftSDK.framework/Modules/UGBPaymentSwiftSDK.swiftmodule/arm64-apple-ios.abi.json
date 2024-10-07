@@ -3035,9 +3035,16 @@
         "moduleName": "UGBPaymentSwiftSDK"
       },
       {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "UGBPaymentSwiftSDK"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "UGBPaymentSDK",
-        "printedName": "UGBPaymentSDK",
+        "name": "UGBPaymentSwiftSDK",
+        "printedName": "UGBPaymentSwiftSDK",
         "children": [
           {
             "kind": "Var",
@@ -3052,8 +3059,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C14mainControllerSo06UIViewE0Cvp",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C14mainControllerSo06UIViewE0Cvp",
+            "usr": "s:18UGBPaymentSwiftSDKAAC14mainControllerSo06UIViewE0Cvp",
+            "mangledName": "$s18UGBPaymentSwiftSDKAAC14mainControllerSo06UIViewE0Cvp",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
@@ -3075,8 +3082,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C14mainControllerSo06UIViewE0Cvg",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C14mainControllerSo06UIViewE0Cvg",
+                "usr": "s:18UGBPaymentSwiftSDKAAC14mainControllerSo06UIViewE0Cvg",
+                "mangledName": "$s18UGBPaymentSwiftSDKAAC14mainControllerSo06UIViewE0Cvg",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -3100,8 +3107,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C14mainControllerSo06UIViewE0Cvs",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C14mainControllerSo06UIViewE0Cvs",
+                "usr": "s:18UGBPaymentSwiftSDKAAC14mainControllerSo06UIViewE0Cvs",
+                "mangledName": "$s18UGBPaymentSwiftSDKAAC14mainControllerSo06UIViewE0Cvs",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -3119,236 +3126,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C14mainControllerSo06UIViewE0CvM",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C14mainControllerSo06UIViewE0CvM",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "successController",
-            "printedName": "successController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C17successControllerSo06UIViewE0CSgvp",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17successControllerSo06UIViewE0CSgvp",
-            "moduleName": "UGBPaymentSwiftSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C17successControllerSo06UIViewE0CSgvg",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17successControllerSo06UIViewE0CSgvg",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C17successControllerSo06UIViewE0CSgvs",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17successControllerSo06UIViewE0CSgvs",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C17successControllerSo06UIViewE0CSgvM",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17successControllerSo06UIViewE0CSgvM",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "errorController",
-            "printedName": "errorController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C15errorControllerSo06UIViewE0CSgvp",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C15errorControllerSo06UIViewE0CSgvp",
-            "moduleName": "UGBPaymentSwiftSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C15errorControllerSo06UIViewE0CSgvg",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C15errorControllerSo06UIViewE0CSgvg",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C15errorControllerSo06UIViewE0CSgvs",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C15errorControllerSo06UIViewE0CSgvs",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C15errorControllerSo06UIViewE0CSgvM",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C15errorControllerSo06UIViewE0CSgvM",
+                "usr": "s:18UGBPaymentSwiftSDKAAC14mainControllerSo06UIViewE0CvM",
+                "mangledName": "$s18UGBPaymentSwiftSDKAAC14mainControllerSo06UIViewE0CvM",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -3363,17 +3142,18 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UGBPaymentSDK",
-                "printedName": "UGBPaymentSwiftSDK.UGBPaymentSDK",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C"
+                "name": "UGBPaymentSwiftSDK",
+                "printedName": "UGBPaymentSwiftSDK.UGBPaymentSwiftSDK",
+                "usr": "s:18UGBPaymentSwiftSDKAAC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0CACycfc",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0CACycfc",
+            "usr": "s:18UGBPaymentSwiftSDKAACABycfc",
+            "mangledName": "$s18UGBPaymentSwiftSDKAACABycfc",
             "moduleName": "UGBPaymentSwiftSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -3395,12 +3175,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C16setColorSettings12customColorsyAA0eF0C_tF",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C16setColorSettings12customColorsyAA0eF0C_tF",
+            "usr": "s:18UGBPaymentSwiftSDKAAC16setColorSettings12customColorsyAA0eF0C_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDKAAC16setColorSettings12customColorsyAA0eF0C_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3422,8 +3203,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C15setTextSettings11customTextsyAA0eF0C_tF",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C15setTextSettings11customTextsyAA0eF0C_tF",
+            "usr": "s:18UGBPaymentSwiftSDKAAC15setTextSettings11customTextsyAA0eF0C_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDKAAC15setTextSettings11customTextsyAA0eF0C_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
@@ -3464,8 +3245,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C17paymentCompletionyAA10ResultDataCcSgvp",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17paymentCompletionyAA10ResultDataCcSgvp",
+            "usr": "s:18UGBPaymentSwiftSDKAAC17paymentCompletionyAA10ResultDataCcSgvp",
+            "mangledName": "$s18UGBPaymentSwiftSDKAAC17paymentCompletionyAA10ResultDataCcSgvp",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
@@ -3508,8 +3289,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C17paymentCompletionyAA10ResultDataCcSgvg",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17paymentCompletionyAA10ResultDataCcSgvg",
+                "usr": "s:18UGBPaymentSwiftSDKAAC17paymentCompletionyAA10ResultDataCcSgvg",
+                "mangledName": "$s18UGBPaymentSwiftSDKAAC17paymentCompletionyAA10ResultDataCcSgvg",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -3553,8 +3334,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C17paymentCompletionyAA10ResultDataCcSgvs",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17paymentCompletionyAA10ResultDataCcSgvs",
+                "usr": "s:18UGBPaymentSwiftSDKAAC17paymentCompletionyAA10ResultDataCcSgvs",
+                "mangledName": "$s18UGBPaymentSwiftSDKAAC17paymentCompletionyAA10ResultDataCcSgvs",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -3572,8 +3353,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK0aC0C17paymentCompletionyAA10ResultDataCcSgvM",
-                "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17paymentCompletionyAA10ResultDataCcSgvM",
+                "usr": "s:18UGBPaymentSwiftSDKAAC17paymentCompletionyAA10ResultDataCcSgvM",
+                "mangledName": "$s18UGBPaymentSwiftSDKAAC17paymentCompletionyAA10ResultDataCcSgvM",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -3611,8 +3392,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C11paymentInit4from0D10DataString6apiKeyySo16UIViewControllerC_S2StF",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C11paymentInit4from0D10DataString6apiKeyySo16UIViewControllerC_S2StF",
+            "usr": "s:18UGBPaymentSwiftSDKAAC11paymentInit4from0D10DataString6apiKeyySo16UIViewControllerC_S2StF",
+            "mangledName": "$s18UGBPaymentSwiftSDKAAC11paymentInit4from0D10DataString6apiKeyySo16UIViewControllerC_S2StF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
@@ -3678,8 +3459,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C28presentLibraryViewController4from9toSuccess0I5Error11environment11paymentDataySo06UIViewG0C_AKSgAlA11EnvironmentOAA07PaymentN0CtF",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C28presentLibraryViewController4from9toSuccess0I5Error11environment11paymentDataySo06UIViewG0C_AKSgAlA11EnvironmentOAA07PaymentN0CtF",
+            "usr": "s:18UGBPaymentSwiftSDKAAC28presentLibraryViewController4from9toSuccess0I5Error11environment11paymentDataySo06UIViewG0C_AJSgAkA11EnvironmentOAA07PaymentN0CtF",
+            "mangledName": "$s18UGBPaymentSwiftSDKAAC28presentLibraryViewController4from9toSuccess0I5Error11environment11paymentDataySo06UIViewG0C_AJSgAkA11EnvironmentOAA07PaymentN0CtF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
@@ -3705,8 +3486,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C17applySettingsText4fromyAA0fE0C_tF",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C17applySettingsText4fromyAA0fE0C_tF",
+            "usr": "s:18UGBPaymentSwiftSDKAAC17applySettingsText4fromyAA0fE0C_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDKAAC17applySettingsText4fromyAA0fE0C_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "isFromExtension": true,
@@ -3730,8 +3511,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK0aC0C18applySettingsColor4fromyAA0fE0C_tF",
-            "mangledName": "$s18UGBPaymentSwiftSDK0aC0C18applySettingsColor4fromyAA0fE0C_tF",
+            "usr": "s:18UGBPaymentSwiftSDKAAC18applySettingsColor4fromyAA0fE0C_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDKAAC18applySettingsColor4fromyAA0fE0C_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "isFromExtension": true,
@@ -3739,8 +3520,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:18UGBPaymentSwiftSDK0aC0C",
-        "mangledName": "$s18UGBPaymentSwiftSDK0aC0C",
+        "usr": "s:18UGBPaymentSwiftSDKAAC",
+        "mangledName": "$s18UGBPaymentSwiftSDKAAC",
         "moduleName": "UGBPaymentSwiftSDK",
         "isOpen": true,
         "declAttributes": [
@@ -11760,9 +11541,123 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "commissionPercent",
+            "printedName": "commissionPercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK12AmountConfigC17commissionPercentSSSgvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK12AmountConfigC17commissionPercentSSSgvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12AmountConfigC17commissionPercentSSSgvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK12AmountConfigC17commissionPercentSSSgvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12AmountConfigC17commissionPercentSSSgvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK12AmountConfigC17commissionPercentSSSgvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12AmountConfigC17commissionPercentSSSgvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK12AmountConfigC17commissionPercentSSSgvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(amount:currency:commission:)",
+            "printedName": "init(amount:currency:commission:commissionPercent:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11814,11 +11709,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18UGBPaymentSwiftSDK12AmountConfigC6amount8currency10commissionACSSSg_A2Gtcfc",
-            "mangledName": "$s18UGBPaymentSwiftSDK12AmountConfigC6amount8currency10commissionACSSSg_A2Gtcfc",
+            "usr": "s:18UGBPaymentSwiftSDK12AmountConfigC6amount8currency10commission0H7PercentACSSSg_A3Htcfc",
+            "mangledName": "$s18UGBPaymentSwiftSDK12AmountConfigC6amount8currency10commission0H7PercentACSSSg_A3Htcfc",
             "moduleName": "UGBPaymentSwiftSDK",
             "declAttributes": [
               "AccessControl"
@@ -23847,21 +23757,28 @@
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/PaymentData\/AmountConfig.swift",
       "kind": "StringLiteral",
-      "offset": 200,
+      "offset": 242,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/PaymentData\/AmountConfig.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 274,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/PaymentData\/AmountConfig.swift",
       "kind": "StringLiteral",
-      "offset": 266,
+      "offset": 308,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/PaymentData\/AmountConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
       "length": 2,
       "value": "\"\""
     },

@@ -46,10 +46,8 @@ public enum Environment {
     get
   }
 }
-public class UGBPaymentSDK {
+public class UGBPaymentSwiftSDK {
   public var mainController: UIKit.UIViewController
-  public var successController: UIKit.UIViewController?
-  public var errorController: UIKit.UIViewController?
   public init()
   public func setColorSettings(customColors: UGBPaymentSwiftSDK.ColorSettings)
   public func setTextSettings(customTexts: UGBPaymentSwiftSDK.TextSettings)
@@ -90,7 +88,8 @@ public class AmountConfig {
   public var amount: Swift.String?
   public var currency: Swift.String?
   public var commission: Swift.String?
-  public init(amount: Swift.String? = "", currency: Swift.String? = "", commission: Swift.String? = "")
+  public var commissionPercent: Swift.String?
+  public init(amount: Swift.String? = "", currency: Swift.String? = "", commission: Swift.String? = "", commissionPercent: Swift.String? = "")
   @objc deinit
 }
 public class ColorSettings {
