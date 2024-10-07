@@ -46,7 +46,7 @@ public enum Environment {
     get
   }
 }
-public class UGBPaymentSwiftSDK {
+public class UGBPaymentSDK {
   public var mainController: UIKit.UIViewController
   public init()
   public func setColorSettings(customColors: UGBPaymentSwiftSDK.ColorSettings)
