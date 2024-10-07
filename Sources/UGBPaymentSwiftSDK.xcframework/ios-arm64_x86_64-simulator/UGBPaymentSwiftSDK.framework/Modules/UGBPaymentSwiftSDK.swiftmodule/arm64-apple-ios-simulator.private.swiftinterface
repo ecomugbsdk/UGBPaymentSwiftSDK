@@ -102,6 +102,7 @@ public class ColorSettings {
   public var buttonPayDisabledTextColor: UIKit.UIColor?
   public var infoTextBackgroundColor: UIKit.UIColor?
   public var infoTextColor: UIKit.UIColor?
+  public var grayTextColor: UIKit.UIColor?
   public var summaryBackgroundColor: UIKit.UIColor?
   public var summaryTextColor: UIKit.UIColor?
   public var summarySeparatorColor: UIKit.UIColor?
@@ -110,6 +111,7 @@ public class ColorSettings {
   public var textFieldActiveBorderColor: UIKit.UIColor?
   public var textFieldInactiveBorderColor: UIKit.UIColor?
   public var textFieldLabelTextColor: UIKit.UIColor?
+  public var textFieldLabelErrorColor: UIKit.UIColor?
   public var alertGradientColors: [CoreGraphics.CGColor]?
   public var alertBackgroundColor: UIKit.UIColor?
   public var alertEmojiLabelColor: UIKit.UIColor?
@@ -160,6 +162,10 @@ public class TextSettings {
   public var expiryDateLabelString: Swift.String
   public var cvvLabelString: Swift.String
   public var toolbarDoneButtonString: Swift.String
+  public var emptyFieldErrorString: Swift.String
+  public var invalidCardNumberErrorString: Swift.String
+  public var invalidExpiryDateErrorString: Swift.String
+  public var invalidCvvErrorString: Swift.String
   public var alertTextString: Swift.String
   public var alertEmojiString: Swift.String
   public var navigationButtonString: Swift.String
