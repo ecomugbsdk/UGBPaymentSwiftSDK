@@ -3567,8 +3567,8 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "UGBPaymentSwiftSDK"
       },
@@ -4636,6 +4636,122 @@
           },
           {
             "kind": "Var",
+            "name": "customNavigationBarView",
+            "printedName": "customNavigationBarView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC019customNavigationBarE0So6UIViewCSgvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC019customNavigationBarE0So6UIViewCSgvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC019customNavigationBarE0So6UIViewCSgvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC019customNavigationBarE0So6UIViewCSgvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC019customNavigationBarE0So6UIViewCSgvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC019customNavigationBarE0So6UIViewCSgvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC019customNavigationBarE0So6UIViewCSgvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC019customNavigationBarE0So6UIViewCSgvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "gradientBackgroundView",
             "printedName": "gradientBackgroundView",
             "children": [
@@ -4665,7 +4781,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "hasStorage": true,
             "accessors": [
               {
@@ -4781,7 +4897,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "hasStorage": true,
             "accessors": [
               {
@@ -4897,7 +5013,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -5013,7 +5129,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 7,
             "hasStorage": true,
             "accessors": [
               {
@@ -5129,7 +5245,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 7,
+            "fixedbinaryorder": 8,
             "hasStorage": true,
             "accessors": [
               {
@@ -5245,7 +5361,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 8,
+            "fixedbinaryorder": 9,
             "hasStorage": true,
             "accessors": [
               {
@@ -5361,7 +5477,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "hasStorage": true,
             "accessors": [
               {
@@ -5469,7 +5585,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5520,7 +5636,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5571,7 +5687,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5622,7 +5738,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 14,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5673,7 +5789,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 15,
             "hasStorage": true,
             "accessors": [
               {
@@ -5773,7 +5889,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 16,
             "hasStorage": true,
             "accessors": [
               {
@@ -5889,7 +6005,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 17,
             "hasStorage": true,
             "accessors": [
               {
@@ -6005,7 +6121,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 18,
             "hasStorage": true,
             "accessors": [
               {
@@ -6121,7 +6237,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 18,
+            "fixedbinaryorder": 19,
             "hasStorage": true,
             "accessors": [
               {
@@ -6237,7 +6353,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 20,
             "hasStorage": true,
             "accessors": [
               {
@@ -6353,7 +6469,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 20,
+            "fixedbinaryorder": 21,
             "hasStorage": true,
             "accessors": [
               {
@@ -6469,7 +6585,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 21,
+            "fixedbinaryorder": 22,
             "hasStorage": true,
             "accessors": [
               {
@@ -6585,7 +6701,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 22,
+            "fixedbinaryorder": 23,
             "hasStorage": true,
             "accessors": [
               {
@@ -6701,7 +6817,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 23,
+            "fixedbinaryorder": 24,
             "hasStorage": true,
             "accessors": [
               {
@@ -6817,7 +6933,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 24,
+            "fixedbinaryorder": 25,
             "hasStorage": true,
             "accessors": [
               {
@@ -6924,7 +7040,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 25,
+            "fixedbinaryorder": 26,
             "hasStorage": true,
             "accessors": [
               {
@@ -7015,7 +7131,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 26,
+            "fixedbinaryorder": 27,
             "hasStorage": true,
             "accessors": [
               {
@@ -7106,7 +7222,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 27,
+            "fixedbinaryorder": 28,
             "hasStorage": true,
             "accessors": [
               {
@@ -7218,7 +7334,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 28,
+            "fixedbinaryorder": 29,
             "hasStorage": true,
             "accessors": [
               {
@@ -7877,8 +7993,8 @@
           },
           {
             "kind": "Function",
-            "name": "setupNavigationButton",
-            "printedName": "setupNavigationButton()",
+            "name": "setupCustomNavigationBar",
+            "printedName": "setupCustomNavigationBar()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7887,8 +8003,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC21setupNavigationButtonyyF",
-            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC21setupNavigationButtonyyF",
+            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC24setupCustomNavigationBaryyF",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC24setupCustomNavigationBaryyF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
@@ -7919,6 +8035,29 @@
               "Preconcurrency",
               "Custom",
               "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupNavigationButton",
+            "printedName": "setupNavigationButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC21setupNavigationButtonyyF",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC21setupNavigationButtonyyF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
