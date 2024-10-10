@@ -5,7 +5,7 @@
 With Cocoapods
 
 ```ruby
-pod 'UGBPaymentSwiftSDK', :git => 'https://github.com/ecomugbsdk/UGBPaymentSwiftSDK.git', :tag => '0.5.2'
+pod 'UGBPaymentSwiftSDK', :git => 'https://github.com/ecomugbsdk/UGBPaymentSwiftSDK.git', :tag => '0.5.3'
 ```
 
 While using UGBPaymentSwiftSDK, don’t forget:
