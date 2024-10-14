@@ -17843,6 +17843,186 @@
           },
           {
             "kind": "Var",
+            "name": "infoTextLinkString",
+            "printedName": "infoTextLinkString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK12TextSettingsC04infoD10LinkStringSSvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK12TextSettingsC04infoD10LinkStringSSvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12TextSettingsC04infoD10LinkStringSSvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK12TextSettingsC04infoD10LinkStringSSvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12TextSettingsC04infoD10LinkStringSSvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK12TextSettingsC04infoD10LinkStringSSvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12TextSettingsC04infoD10LinkStringSSvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK12TextSettingsC04infoD10LinkStringSSvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "infoTextLinkURLString",
+            "printedName": "infoTextLinkURLString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK12TextSettingsC04infoD13LinkURLStringSSvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK12TextSettingsC04infoD13LinkURLStringSSvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12TextSettingsC04infoD13LinkURLStringSSvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK12TextSettingsC04infoD13LinkURLStringSSvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12TextSettingsC04infoD13LinkURLStringSSvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK12TextSettingsC04infoD13LinkURLStringSSvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK12TextSettingsC04infoD13LinkURLStringSSvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK12TextSettingsC04infoD13LinkURLStringSSvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "sumLabelTextString",
             "printedName": "sumLabelTextString",
             "children": [
@@ -23412,6 +23592,135 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UITapGestureRecognizer",
+        "printedName": "UITapGestureRecognizer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didTapAttributedTextInLabel",
+            "printedName": "didTapAttributedTextInLabel(label:inRange:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22UITapGestureRecognizerC18UGBPaymentSwiftSDKE27didTapAttributedTextInLabel5label7inRangeSbSo7UILabelC_So8_NSRangeVtF",
+            "mangledName": "$sSo22UITapGestureRecognizerC18UGBPaymentSwiftSDKE27didTapAttributedTextInLabel5label7inRangeSbSo7UILabelC_So8_NSRangeVtF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITapGestureRecognizer",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "3.2",
+        "objc_name": "UITapGestureRecognizer",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIGestureRecognizer",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIGestureRecognizer",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
         "children": [
@@ -24196,175 +24505,189 @@
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 410,
+      "offset": 373,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 423,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 513,
+      "offset": 507,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 613,
+      "offset": 561,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 669,
+      "offset": 610,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 710,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 768,
+      "offset": 766,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 815,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 861,
+      "offset": 865,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 913,
+      "offset": 915,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 963,
+      "offset": 958,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1010,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1077,
+      "offset": 1060,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1127,
+      "offset": 1117,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1174,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1248,
+      "offset": 1224,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1338,
+      "offset": 1300,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1434,
+      "offset": 1345,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 1435,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1529,
+      "offset": 1531,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1583,
+      "offset": 1580,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1675,
+      "offset": 1626,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1722,
+      "offset": 1680,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1766,
+      "offset": 1772,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1817,
+      "offset": 1819,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 1863,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/DataTypes\/TextSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
       "length": 2,
       "value": "\"\""
     },

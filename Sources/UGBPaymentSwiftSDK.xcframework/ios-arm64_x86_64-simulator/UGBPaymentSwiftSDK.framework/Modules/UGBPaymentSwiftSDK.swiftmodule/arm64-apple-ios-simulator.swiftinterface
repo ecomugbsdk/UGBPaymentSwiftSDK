@@ -151,6 +151,8 @@ public class TextSettings {
   public var buttonPayEnabledTextString: Swift.String
   public var buttonPayDisabledTextString: Swift.String
   public var infoTextString: Swift.String
+  public var infoTextLinkString: Swift.String
+  public var infoTextLinkURLString: Swift.String
   public var sumLabelTextString: Swift.String
   public var commissionLabelTextString: Swift.String
   public var totalLabelTextString: Swift.String
