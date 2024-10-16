@@ -5564,6 +5564,238 @@
           },
           {
             "kind": "Var",
+            "name": "applePayButtonContainer",
+            "printedName": "applePayButtonContainer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC23applePayButtonContainerSo6UIViewCSgvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC23applePayButtonContainerSo6UIViewCSgvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 11,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC23applePayButtonContainerSo6UIViewCSgvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC23applePayButtonContainerSo6UIViewCSgvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC23applePayButtonContainerSo6UIViewCSgvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC23applePayButtonContainerSo6UIViewCSgvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC23applePayButtonContainerSo6UIViewCSgvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC23applePayButtonContainerSo6UIViewCSgvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scrollView",
+            "printedName": "scrollView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIScrollView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIScrollView",
+                    "printedName": "UIKit.UIScrollView",
+                    "usr": "c:objc(cs)UIScrollView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC06scrollE0So08UIScrollE0CSgvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC06scrollE0So08UIScrollE0CSgvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 12,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIScrollView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIScrollView",
+                        "printedName": "UIKit.UIScrollView",
+                        "usr": "c:objc(cs)UIScrollView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC06scrollE0So08UIScrollE0CSgvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC06scrollE0So08UIScrollE0CSgvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIScrollView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIScrollView",
+                        "printedName": "UIKit.UIScrollView",
+                        "usr": "c:objc(cs)UIScrollView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC06scrollE0So08UIScrollE0CSgvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC06scrollE0So08UIScrollE0CSgvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC06scrollE0So08UIScrollE0CSgvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC06scrollE0So08UIScrollE0CSgvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "cardNumberField",
             "printedName": "cardNumberField",
             "children": [
@@ -5585,7 +5817,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 13,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5636,7 +5868,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 14,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5687,7 +5919,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 13,
+            "fixedbinaryorder": 15,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5738,7 +5970,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 16,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -5789,7 +6021,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 15,
+            "fixedbinaryorder": 17,
             "hasStorage": true,
             "accessors": [
               {
@@ -5889,7 +6121,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 16,
+            "fixedbinaryorder": 18,
             "hasStorage": true,
             "accessors": [
               {
@@ -6005,7 +6237,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 17,
+            "fixedbinaryorder": 19,
             "hasStorage": true,
             "accessors": [
               {
@@ -6121,7 +6353,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 18,
+            "fixedbinaryorder": 20,
             "hasStorage": true,
             "accessors": [
               {
@@ -6237,7 +6469,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 21,
             "hasStorage": true,
             "accessors": [
               {
@@ -6353,7 +6585,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 20,
+            "fixedbinaryorder": 22,
             "hasStorage": true,
             "accessors": [
               {
@@ -6469,7 +6701,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 21,
+            "fixedbinaryorder": 23,
             "hasStorage": true,
             "accessors": [
               {
@@ -6585,7 +6817,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 22,
+            "fixedbinaryorder": 24,
             "hasStorage": true,
             "accessors": [
               {
@@ -6701,7 +6933,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 23,
+            "fixedbinaryorder": 25,
             "hasStorage": true,
             "accessors": [
               {
@@ -6817,7 +7049,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 24,
+            "fixedbinaryorder": 26,
             "hasStorage": true,
             "accessors": [
               {
@@ -6933,7 +7165,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 25,
+            "fixedbinaryorder": 27,
             "hasStorage": true,
             "accessors": [
               {
@@ -7040,7 +7272,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 26,
+            "fixedbinaryorder": 28,
             "hasStorage": true,
             "accessors": [
               {
@@ -7131,7 +7363,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 27,
+            "fixedbinaryorder": 29,
             "hasStorage": true,
             "accessors": [
               {
@@ -7222,7 +7454,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 28,
+            "fixedbinaryorder": 30,
             "hasStorage": true,
             "accessors": [
               {
@@ -7334,7 +7566,7 @@
               "Custom",
               "HasStorage"
             ],
-            "fixedbinaryorder": 29,
+            "fixedbinaryorder": 31,
             "hasStorage": true,
             "accessors": [
               {
@@ -7618,39 +7850,6 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewWillDisappear",
-            "printedName": "viewWillDisappear(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)viewWillDisappear:",
-            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC17viewWillDisappearyySbF",
-            "moduleName": "UGBPaymentSwiftSDK",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewWillDisappear:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -8041,29 +8240,6 @@
           },
           {
             "kind": "Function",
-            "name": "setupNavigationButton",
-            "printedName": "setupNavigationButton()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC21setupNavigationButtonyyF",
-            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC21setupNavigationButtonyyF",
-            "moduleName": "UGBPaymentSwiftSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setupPaymentSummary",
             "printedName": "setupPaymentSummary()",
             "children": [
@@ -8244,6 +8420,38 @@
           },
           {
             "kind": "Function",
+            "name": "textDidChange",
+            "printedName": "textDidChange(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Notification",
+                "printedName": "Foundation.Notification",
+                "usr": "s:10Foundation12NotificationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)textDidChangeWithNotification:",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC13textDidChange12notificationy10Foundation12NotificationV_tF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "objc_name": "textDidChangeWithNotification:",
+            "declAttributes": [
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setupSepartatoData",
             "printedName": "setupSepartatoData()",
             "children": [
@@ -8261,6 +8469,161 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupScrollView",
+            "printedName": "setupScrollView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18UGBPaymentSwiftSDK16MyViewControllerC011setupScrollE0yyF",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC011setupScrollE0yyF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)viewWillAppear:",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC14viewWillAppearyySbF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)viewWillDisappear:",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "keyboardWillShow",
+            "printedName": "keyboardWillShow(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNotification",
+                "printedName": "Foundation.NSNotification",
+                "usr": "c:objc(cs)NSNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)keyboardWillShowWithNotification:",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC16keyboardWillShow12notificationySo14NSNotificationC_tF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "objc_name": "keyboardWillShowWithNotification:",
+            "declAttributes": [
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "keyboardWillHide",
+            "printedName": "keyboardWillHide(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNotification",
+                "printedName": "Foundation.NSNotification",
+                "usr": "c:objc(cs)NSNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)keyboardWillHideWithNotification:",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC16keyboardWillHide12notificationySo14NSNotificationC_tF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "objc_name": "keyboardWillHideWithNotification:",
+            "declAttributes": [
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -23010,6 +23373,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UGBPaymentSwiftSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UGBPaymentSwiftSDK"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -23721,6 +24098,175 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "resized",
+            "printedName": "resized(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC18UGBPaymentSwiftSDKE7resized2toABSgSo6CGSizeV_tF",
+            "mangledName": "$sSo7UIImageC18UGBPaymentSwiftSDKE7resized2toABSgSo6CGSizeV_tF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resource:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "UGBPaymentSwiftSDK.ImageResource",
+                "usr": "s:18UGBPaymentSwiftSDK13ImageResourceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIImageC18UGBPaymentSwiftSDKE8resourceAbC13ImageResourceV_tcfc",
+            "mangledName": "$sSo7UIImageC18UGBPaymentSwiftSDKE8resourceAbC13ImageResourceV_tcfc",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "declAttributes": [
+              "Convenience",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
         "children": [
@@ -23933,141 +24479,6 @@
             "printedName": "_ExpressibleByColorLiteral",
             "usr": "s:s26_ExpressibleByColorLiteralP",
             "mangledName": "$ss26_ExpressibleByColorLiteralP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIImage",
-        "printedName": "UIImage",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(resource:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "UGBPaymentSwiftSDK.ImageResource",
-                "usr": "s:18UGBPaymentSwiftSDK13ImageResourceV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:So7UIImageC18UGBPaymentSwiftSDKE8resourceAbC13ImageResourceV_tcfc",
-            "mangledName": "$sSo7UIImageC18UGBPaymentSwiftSDKE8resourceAbC13ImageResourceV_tcfc",
-            "moduleName": "UGBPaymentSwiftSDK",
-            "declAttributes": [
-              "Convenience",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Convenience"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIImage",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIImage",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByImageLiteral",
-            "printedName": "_ExpressibleByImageLiteral",
-            "usr": "s:s26_ExpressibleByImageLiteralP",
-            "mangledName": "$ss26_ExpressibleByImageLiteralP"
           }
         ]
       },
@@ -24428,7 +24839,7 @@
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/MyViewController\/MyViewControllerTextFields.swift",
       "kind": "BooleanLiteral",
-      "offset": 6695,
+      "offset": 6755,
       "length": 5,
       "value": "false"
     },
