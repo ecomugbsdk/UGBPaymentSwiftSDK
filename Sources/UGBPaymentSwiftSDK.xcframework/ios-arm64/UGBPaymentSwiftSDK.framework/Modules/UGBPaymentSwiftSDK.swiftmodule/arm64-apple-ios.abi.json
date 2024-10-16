@@ -10432,12 +10432,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "UIKit.UIViewController?"
+                "printedName": "UIKit.UINavigationController?"
               }
             ],
             "declKind": "Var",
-            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo06UIViewH0CSgvp",
-            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo06UIViewH0CSgvp",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo012UINavigationH0CSgvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo012UINavigationH0CSgvp",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [
@@ -10456,21 +10456,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UIKit.UIViewController?",
+                    "printedName": "UIKit.UINavigationController?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo06UIViewH0CSgvg",
-                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo06UIViewH0CSgvg",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo012UINavigationH0CSgvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo012UINavigationH0CSgvg",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -10489,21 +10489,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UIKit.UIViewController?",
+                    "printedName": "UIKit.UINavigationController?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
+                        "name": "UINavigationController",
+                        "printedName": "UIKit.UINavigationController",
+                        "usr": "c:objc(cs)UINavigationController"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo06UIViewH0CSgvs",
-                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo06UIViewH0CSgvs",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo012UINavigationH0CSgvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo012UINavigationH0CSgvs",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -10521,8 +10521,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo06UIViewH0CSgvM",
-                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo06UIViewH0CSgvM",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo012UINavigationH0CSgvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC13navControllerSo012UINavigationH0CSgvM",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "isOpen": true,
@@ -11074,21 +11074,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
+                "printedName": "UIKit.UINavigationController?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11environment11paymentData0hI6String05startE017successController05errorM004mainM003navM0AcA11EnvironmentO_AA07PaymentI0CSgSSAA05StartE0OSo06UIViewM0CSgAutUtcfc",
-            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11environment11paymentData0hI6String05startE017successController05errorM004mainM003navM0AcA11EnvironmentO_AA07PaymentI0CSgSSAA05StartE0OSo06UIViewM0CSgAutUtcfc",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11environment11paymentData0hI6String05startE017successController05errorM004mainM003navM0AcA11EnvironmentO_AA07PaymentI0CSgSSAA05StartE0OSo06UIViewM0CSgAuTSo012UINavigationM0CSgtcfc",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11environment11paymentData0hI6String05startE017successController05errorM004mainM003navM0AcA11EnvironmentO_AA07PaymentI0CSgSSAA05StartE0OSo06UIViewM0CSgAuTSo012UINavigationM0CSgtcfc",
             "moduleName": "UGBPaymentSwiftSDK",
             "init_kind": "Designated"
           },
@@ -11185,14 +11185,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC16setNavController03navI0ySo06UIViewI0C_tF",
-            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC16setNavController03navI0ySo06UIViewI0C_tF",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC16setNavController03navI0ySo012UINavigationI0C_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC16setNavController03navI0ySo012UINavigationI0C_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "declAttributes": [

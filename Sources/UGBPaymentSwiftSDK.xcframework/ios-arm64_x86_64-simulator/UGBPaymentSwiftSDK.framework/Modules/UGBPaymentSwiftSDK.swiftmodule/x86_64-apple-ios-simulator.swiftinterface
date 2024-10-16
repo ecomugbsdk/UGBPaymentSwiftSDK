@@ -74,7 +74,7 @@ extension UIKit.UIColor {
 @_hasMissingDesignatedInitializers public class LongPollingManager {
   public var paymentCompletion: ((UGBPaymentSwiftSDK.ResultData) -> Swift.Void)?
   public func setApiKey(apiKey: Swift.String)
-  public func setNavController(navController: UIKit.UIViewController)
+  public func setNavController(navController: UIKit.UINavigationController)
   public func setCardData(cardNumber: Swift.String, cardExpiryMonth: Swift.String, cardExpiryYear: Swift.String, cardCVV: Swift.String)
   public func setStep(step: Swift.String)
   public func messagePollingValidateApay(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void, token: Swift.String)
