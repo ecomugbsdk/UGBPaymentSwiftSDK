@@ -11776,17 +11776,34 @@
           {
             "kind": "Function",
             "name": "closeWebView",
-            "printedName": "closeWebView()",
+            "printedName": "closeWebView(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC12closeWebViewyyF",
-            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC12closeWebViewyyF",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC12closeWebView10completionyyyc_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC12closeWebView10completionyyyc_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "isFromExtension": true,
