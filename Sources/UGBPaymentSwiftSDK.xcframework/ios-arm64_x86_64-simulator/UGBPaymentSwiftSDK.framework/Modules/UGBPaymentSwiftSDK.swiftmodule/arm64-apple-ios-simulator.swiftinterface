@@ -78,6 +78,7 @@ extension UIKit.UIColor {
   public func setCardData(cardNumber: Swift.String, cardExpiryMonth: Swift.String, cardExpiryYear: Swift.String, cardCVV: Swift.String)
   public func setStep(step: Swift.String)
   public func messagePollingValidateApay(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void, token: Swift.String)
+  public func backPost(withCompletion: @escaping ((any Swift.Error)?) -> Swift.Void)
   public func messagePollingValidate(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void)
   public func initPollingV2(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?, [Swift.String : Any]?) -> Swift.Void)
   public func initPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
