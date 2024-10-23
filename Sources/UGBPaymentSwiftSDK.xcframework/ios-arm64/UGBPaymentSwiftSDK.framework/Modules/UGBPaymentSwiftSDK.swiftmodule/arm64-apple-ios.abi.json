@@ -777,14 +777,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV12paymentTokenSSvp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV12paymentTokenSSvp",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV12paymentTokenSSSgvp",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV12paymentTokenSSSgvp",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "declAttributes": [
                   "HasStorage"
@@ -800,14 +808,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV12paymentTokenSSvg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV12paymentTokenSSvg",
+                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV12paymentTokenSSSgvg",
+                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV12paymentTokenSSSgvg",
                     "moduleName": "UGBPaymentSwiftSDK",
                     "implicit": true,
                     "declAttributes": [
@@ -965,14 +981,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV3feeSivp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV3feeSivp",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV3feeSiSgvp",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV3feeSiSgvp",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "declAttributes": [
                   "HasStorage"
@@ -988,14 +1012,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV3feeSivg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV3feeSivg",
+                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV3feeSiSgvg",
+                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV3feeSiSgvg",
                     "moduleName": "UGBPaymentSwiftSDK",
                     "implicit": true,
                     "declAttributes": [
@@ -1012,14 +1044,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV6userIdSSvp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV6userIdSSvp",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV6userIdSSSgvp",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV6userIdSSSgvp",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "declAttributes": [
                   "HasStorage"
@@ -1035,14 +1075,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV6userIdSSvg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV6userIdSSvg",
+                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV6userIdSSSgvg",
+                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV6userIdSSSgvg",
                     "moduleName": "UGBPaymentSwiftSDK",
                     "implicit": true,
                     "declAttributes": [
@@ -1059,14 +1107,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV11descriptionSSvp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV11descriptionSSvp",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV11descriptionSSSgvp",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV11descriptionSSSgvp",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "declAttributes": [
                   "HasStorage"
@@ -1082,14 +1138,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV11descriptionSSvg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV11descriptionSSvg",
+                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV11descriptionSSSgvg",
+                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV11descriptionSSSgvg",
                     "moduleName": "UGBPaymentSwiftSDK",
                     "implicit": true,
                     "declAttributes": [
@@ -1106,14 +1170,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSvp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSvp",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSSgvp",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSSgvp",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "declAttributes": [
                   "HasStorage"
@@ -1129,14 +1201,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSvg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSvg",
+                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSSgvg",
+                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSSgvg",
                     "moduleName": "UGBPaymentSwiftSDK",
                     "implicit": true,
                     "declAttributes": [
@@ -1153,14 +1233,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSivp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSivp",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSiSgvp",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSiSgvp",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "declAttributes": [
                   "HasStorage"
@@ -1176,14 +1264,22 @@
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSivg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSivg",
+                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSiSgvg",
+                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSiSgvg",
                     "moduleName": "UGBPaymentSwiftSDK",
                     "implicit": true,
                     "declAttributes": [
@@ -1200,34 +1296,8 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[UGBPaymentSwiftSDK.PaymentModels.Recipient]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Recipient",
-                        "printedName": "UGBPaymentSwiftSDK.PaymentModels.Recipient",
-                        "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10recipientsSayAC9RecipientVGvp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10recipientsSayAC9RecipientVGvp",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 10,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
+                    "name": "Optional",
+                    "printedName": "[UGBPaymentSwiftSDK.PaymentModels.Recipient]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1244,9 +1314,51 @@
                         "usr": "s:Sa"
                       }
                     ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10recipientsSayAC9RecipientVGSgvp",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10recipientsSayAC9RecipientVGSgvp",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 10,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[UGBPaymentSwiftSDK.PaymentModels.Recipient]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[UGBPaymentSwiftSDK.PaymentModels.Recipient]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Recipient",
+                                "printedName": "UGBPaymentSwiftSDK.PaymentModels.Recipient",
+                                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
                     "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10recipientsSayAC9RecipientVGvg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10recipientsSayAC9RecipientVGvg",
+                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10recipientsSayAC9RecipientVGSgvg",
+                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10recipientsSayAC9RecipientVGSgvg",
                     "moduleName": "UGBPaymentSwiftSDK",
                     "implicit": true,
                     "declAttributes": [
@@ -1283,76 +1395,132 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[UGBPaymentSwiftSDK.PaymentModels.Recipient]",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Recipient",
-                        "printedName": "UGBPaymentSwiftSDK.PaymentModels.Recipient",
-                        "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
-                    "usr": "s:Sa"
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UGBPaymentSwiftSDK.PaymentModels.Recipient]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UGBPaymentSwiftSDK.PaymentModels.Recipient]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Recipient",
+                            "printedName": "UGBPaymentSwiftSDK.PaymentModels.Recipient",
+                            "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10apayConfig12paymentToken10merchantId05orderL06amount3fee04userL011description18initializationDate13unixTimeStamp10recipientsAeC04ApayH0VSg_S3SS2iS3SSiSayAC9RecipientVGtcfc",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10apayConfig12paymentToken10merchantId05orderL06amount3fee04userL011description18initializationDate13unixTimeStamp10recipientsAeC04ApayH0VSg_S3SS2iS3SSiSayAC9RecipientVGtcfc",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10apayConfig12paymentToken10merchantId05orderL06amount3fee04userL011description18initializationDate13unixTimeStamp10recipientsAeC04ApayH0VSg_SSSgS2SS2iSgA3tUSayAC9RecipientVGSgtcfc",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10apayConfig12paymentToken10merchantId05orderL06amount3fee04userL011description18initializationDate13unixTimeStamp10recipientsAeC04ApayH0VSg_SSSgS2SS2iSgA3tUSayAC9RecipientVGSgtcfc",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "init_kind": "Designated"
