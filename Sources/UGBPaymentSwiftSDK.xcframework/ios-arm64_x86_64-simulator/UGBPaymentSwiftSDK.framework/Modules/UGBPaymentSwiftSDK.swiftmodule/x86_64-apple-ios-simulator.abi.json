@@ -25296,6 +25296,52 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "applicationWillResignActive",
+            "printedName": "applicationWillResignActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UGBPaymentSwiftSDK@objc(cs)WebViewViewController(im)applicationWillResignActive",
+            "mangledName": "$s18UGBPaymentSwiftSDK07WebViewE10ControllerC27applicationWillResignActiveyyF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidBecomeActive",
+            "printedName": "applicationDidBecomeActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UGBPaymentSwiftSDK@objc(cs)WebViewViewController(im)applicationDidBecomeActive",
+            "mangledName": "$s18UGBPaymentSwiftSDK07WebViewE10ControllerC26applicationDidBecomeActiveyyF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(nibName:bundle:)",
