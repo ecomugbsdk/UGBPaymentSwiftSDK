@@ -1055,132 +1055,6 @@
               },
               {
                 "kind": "Var",
-                "name": "initializationDate",
-                "printedName": "initializationDate",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSSgvp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSSgvp",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 6,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSSgvg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV18initializationDateSSSgvg",
-                    "moduleName": "UGBPaymentSwiftSDK",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "unixTimeStamp",
-                "printedName": "unixTimeStamp",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSiSgvp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSiSgvp",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 7,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Int?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSiSgvg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV13unixTimeStampSiSgvg",
-                    "moduleName": "UGBPaymentSwiftSDK",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "recipients",
                 "printedName": "recipients",
                 "children": [
@@ -1214,7 +1088,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 8,
+                "fixedbinaryorder": 6,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -1261,7 +1135,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(apayConfig:paymentToken:merchantId:orderId:userId:description:initializationDate:unixTimeStamp:recipients:)",
+                "printedName": "init(apayConfig:paymentToken:merchantId:orderId:userId:description:recipients:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1340,34 +1214,6 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
                     "printedName": "[UGBPaymentSwiftSDK.PaymentModels.Recipient]?",
                     "children": [
                       {
@@ -1389,8 +1235,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10apayConfig12paymentToken10merchantId05orderL004userL011description18initializationDate13unixTimeStamp10recipientsAeC04ApayH0VSg_SSSgS2SA3RSiSgSayAC9RecipientVGSgtcfc",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10apayConfig12paymentToken10merchantId05orderL004userL011description18initializationDate13unixTimeStamp10recipientsAeC04ApayH0VSg_SSSgS2SA3RSiSgSayAC9RecipientVGSgtcfc",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10apayConfig12paymentToken10merchantId05orderL004userL011description10recipientsAeC04ApayH0VSg_SSSgS2SA2PSayAC9RecipientVGSgtcfc",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO0D4DataV10apayConfig12paymentToken10merchantId05orderL004userL011description10recipientsAeC04ApayH0VSg_SSSgS2SA2PSayAC9RecipientVGSgtcfc",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "init_kind": "Designated"
@@ -1845,69 +1691,6 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "amount",
-                "printedName": "amount",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV6amountSiSgvp",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV6amountSiSgvp",
-                "moduleName": "UGBPaymentSwiftSDK",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 0,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Int?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV6amountSiSgvg",
-                    "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV6amountSiSgvg",
-                    "moduleName": "UGBPaymentSwiftSDK",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "billType",
                 "printedName": "billType",
                 "children": [
@@ -1933,7 +1716,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 1,
+                "fixedbinaryorder": 0,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -1996,7 +1779,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 2,
+                "fixedbinaryorder": 1,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -2059,7 +1842,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 3,
+                "fixedbinaryorder": 2,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -2122,7 +1905,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 4,
+                "fixedbinaryorder": 3,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -2185,7 +1968,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 5,
+                "fixedbinaryorder": 4,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -2248,7 +2031,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 6,
+                "fixedbinaryorder": 5,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -2311,7 +2094,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 7,
+                "fixedbinaryorder": 6,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -2374,7 +2157,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 8,
+                "fixedbinaryorder": 7,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -2437,7 +2220,7 @@
                 "declAttributes": [
                   "HasStorage"
                 ],
-                "fixedbinaryorder": 9,
+                "fixedbinaryorder": 8,
                 "isLet": true,
                 "hasStorage": true,
                 "accessors": [
@@ -2476,27 +2259,13 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(amount:billType:edrpou:fullName:iban:orderRecipientId:period:receiver:merchantName:rnokpp:)",
+                "printedName": "init(billType:edrpou:fullName:iban:orderRecipientId:period:receiver:merchantName:rnokpp:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Recipient",
                     "printedName": "UGBPaymentSwiftSDK.PaymentModels.Recipient",
                     "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
                   },
                   {
                     "kind": "TypeNominal",
@@ -2626,8 +2395,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV6amount8billType6edrpou8fullName4iban05orderF2Id6period8receiver08merchantL06rnokppAESiSg_SSSgA8Qtcfc",
-                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV6amount8billType6edrpou8fullName4iban05orderF2Id6period8receiver08merchantL06rnokppAESiSg_SSSgA8Qtcfc",
+                "usr": "s:18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV8billType6edrpou8fullName4iban05orderF2Id6period8receiver08merchantK06rnokppAESSSg_A8Otcfc",
+                "mangledName": "$s18UGBPaymentSwiftSDK13PaymentModelsO9RecipientV8billType6edrpou8fullName4iban05orderF2Id6period8receiver08merchantK06rnokppAESSSg_A8Otcfc",
                 "moduleName": "UGBPaymentSwiftSDK",
                 "implicit": true,
                 "init_kind": "Designated"
@@ -9949,6 +9718,75 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidEnterBackground",
+            "printedName": "applicationDidEnterBackground()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)applicationDidEnterBackground",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC29applicationDidEnterBackgroundyyF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationWillResignActive",
+            "printedName": "applicationWillResignActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)applicationWillResignActive",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC27applicationWillResignActiveyyF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidBecomeActive",
+            "printedName": "applicationDidBecomeActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UGBPaymentSwiftSDK@objc(cs)MyViewController(im)applicationDidBecomeActive",
+            "mangledName": "$s18UGBPaymentSwiftSDK16MyViewControllerC26applicationDidBecomeActiveyyF",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -24895,7 +24733,10 @@
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
-        "moduleName": "UGBPaymentSwiftSDK"
+        "moduleName": "UGBPaymentSwiftSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -27117,7 +26958,7 @@
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/MyViewController\/MyViewControllerTextFields.swift",
       "kind": "BooleanLiteral",
-      "offset": 6755,
+      "offset": 6189,
       "length": 5,
       "value": "false"
     },
