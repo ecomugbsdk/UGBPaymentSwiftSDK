@@ -11320,6 +11320,94 @@
           },
           {
             "kind": "Var",
+            "name": "loaderState",
+            "printedName": "loaderState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11loaderStateSSvp",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11loaderStateSSvp",
+            "moduleName": "UGBPaymentSwiftSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11loaderStateSSvg",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11loaderStateSSvg",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11loaderStateSSvs",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11loaderStateSSvs",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC11loaderStateSSvM",
+                "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC11loaderStateSSvM",
+                "moduleName": "UGBPaymentSwiftSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "merchantId",
             "printedName": "merchantId",
             "children": [
@@ -13766,17 +13854,23 @@
           {
             "kind": "Function",
             "name": "hideLoader",
-            "printedName": "hideLoader()",
+            "printedName": "hideLoader(state:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC10hideLoaderyyF",
-            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC10hideLoaderyyF",
+            "usr": "s:18UGBPaymentSwiftSDK18LongPollingManagerC10hideLoader5stateySS_tF",
+            "mangledName": "$s18UGBPaymentSwiftSDK18LongPollingManagerC10hideLoader5stateySS_tF",
             "moduleName": "UGBPaymentSwiftSDK",
             "isOpen": true,
             "isFromExtension": true,
@@ -27004,7 +27098,7 @@
     {
       "filePath": "\/Users\/bogdanpotorochin\/work\/swift\/libs\/UGBPaymentSwiftSDK\/UGBPaymentSwiftSDK\/Sources\/MyViewController\/MyViewControllerTextFields.swift",
       "kind": "BooleanLiteral",
-      "offset": 6189,
+      "offset": 6090,
       "length": 5,
       "value": "false"
     },
