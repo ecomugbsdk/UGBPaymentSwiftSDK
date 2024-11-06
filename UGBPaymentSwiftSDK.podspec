@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "UGBPaymentSwiftSDK"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
 
   spec.summary      = "UGBPaymentSwiftSDK create for payments in app IOS."
   spec.description  = "UGBPaymentSwiftSDK see on https://github.com/ecomugbsdk/UGBPaymentSwiftSDK.git."
