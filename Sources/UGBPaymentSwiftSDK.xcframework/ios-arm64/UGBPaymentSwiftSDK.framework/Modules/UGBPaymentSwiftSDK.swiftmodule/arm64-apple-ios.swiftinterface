@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name UGBPaymentSwiftSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name UGBPaymentSwiftSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import DeveloperToolsSupport
 import Foundation
 import PassKit
@@ -28,7 +28,9 @@ public class PaymentData {
   public var amountConfig: UGBPaymentSwiftSDK.AmountConfig
   public var transactionConfig: UGBPaymentSwiftSDK.TransactionConfig
   public var applePayConfig: UGBPaymentSwiftSDK.ApplePayConfig?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(merchantConfig: UGBPaymentSwiftSDK.MerchantConfig, amountConfig: UGBPaymentSwiftSDK.AmountConfig, transactionConfig: UGBPaymentSwiftSDK.TransactionConfig, applePayConfig: UGBPaymentSwiftSDK.ApplePayConfig?)
+  #endif
   @objc deinit
 }
 extension UGBPaymentSwiftSDK.ColorSettings {
@@ -53,19 +55,25 @@ public class UGBPaymentSDK {
   public func setTextSettings(customTexts: UGBPaymentSwiftSDK.TextSettings)
   public var paymentCompletion: ((UGBPaymentSwiftSDK.ResultData) -> Swift.Void)?
   public func paymentInit(from parentViewController: UIKit.UIViewController, paymentDataString: Swift.String, apiKey: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func presentLibraryViewController(from parentViewController: UIKit.UIViewController, toSuccess successController: UIKit.UIViewController?, toError errorController: UIKit.UIViewController?, environment: UGBPaymentSwiftSDK.Environment, paymentData: UGBPaymentSwiftSDK.PaymentData)
+  #endif
   @objc deinit
 }
 public class ApplePayConfig {
   public var merchantId: Swift.String?
   public var countryCode: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(merchantId: Swift.String? = "", countryCode: Swift.String? = "")
+  #endif
   @objc deinit
 }
 public class TransactionConfig {
   public var orderID: Swift.String?
   public var action: UGBPaymentSwiftSDK.PaymentAction?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(orderID: Swift.String? = "", action: UGBPaymentSwiftSDK.PaymentAction? = .purchase)
+  #endif
   @objc deinit
 }
 extension UIKit.UIColor {
@@ -78,12 +86,24 @@ extension UIKit.UIColor {
   public func setNavController(navController: UIKit.UINavigationController)
   public func setCardData(cardNumber: Swift.String, cardExpiryMonth: Swift.String, cardExpiryYear: Swift.String, cardCVV: Swift.String)
   public func setStep(step: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func messagePollingValidateApay(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void, token: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func backPost(withCompletion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func messagePollingValidate(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initPollingV2(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?, [Swift.String : Any]?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func startPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
+  #endif
   @objc deinit
 }
 public class AmountConfig {
@@ -91,7 +111,9 @@ public class AmountConfig {
   public var currency: Swift.String?
   public var commission: Swift.String?
   public var commissionPercent: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(amount: Swift.String? = "", currency: Swift.String? = "", commission: Swift.String? = "", commissionPercent: Swift.String? = "")
+  #endif
   @objc deinit
 }
 public class ColorSettings {
@@ -145,7 +167,9 @@ public class MerchantConfig {
   public var apiKey: Swift.String?
   public var merchantName: Swift.String?
   public var sessionToken: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiKey: Swift.String? = "", merchantName: Swift.String? = "", sessionToken: Swift.String? = "empty")
+  #endif
   @objc deinit
 }
 public class TextSettings {
