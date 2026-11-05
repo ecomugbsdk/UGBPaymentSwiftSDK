@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		0dHmJ+ECiRfm0IiVTPmmb7lN5I0=
+		Rlb774svEuhRzo2sJROztow8FUM=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		rn+QBfqO6eI/0JVSEMlS0hMHTJY=
+		yKRDFs5B7s7LZZcIopoVpsxoVFA=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		zBbXRDROq2RxbIpV2kGrjJ1UT4I=
+		+F0agyG9Fr1xT13yRRE3qf8gaEw=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nUYFCsYykH9TDmJbg4b8GROd/Ok=
+		LUpjVE6SMaKM2JC21L4GL0Ui+8w=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nUYFCsYykH9TDmJbg4b8GROd/Ok=
+		LUpjVE6SMaKM2JC21L4GL0Ui+8w=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Eonnjx9DXnvLg+SX3IkHKjmEJHQ=
+		Yoqo06BAAJ/ATjaCWqN4AGAhT/k=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		zBbXRDROq2RxbIpV2kGrjJ1UT4I=
+		+F0agyG9Fr1xT13yRRE3qf8gaEw=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8SWRIjL2jYVyFMd2vf22CcAwfxM=
+		vRp8EPxf65bsIeXaXmg1N+2Hf+I=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8SWRIjL2jYVyFMd2vf22CcAwfxM=
+		vRp8EPxf65bsIeXaXmg1N+2Hf+I=
 		</data>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XArJSyNnIQXiZ0bWeakc63F9L9I=
+		r43ZTmOb4bqrSqn97Ez4kJeRpcA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -104,28 +104,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TwX3bUX7kiof7Bn/vG+/liMDm/OVTe5azu3a+mNOg9w=
+			dTiMTTar5/hT0iqYtTNdXVQCaDZ79CSl7Olsb1wZdCQ=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TmpwbIPDuc1QVPUOURqD3W87iunzrsogRtmn4HYYDiA=
+			lY2bcNFK3BrX8+g2N3f7D5F0HG0shwjaAvnbJHNQ6lc=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gGa2cZZ0yzSycvaARM9CJFIbybo29Z/J5fYSVNnvckU=
+			2OW1nSNuYk3c4OjhpJ8sINuoi11vaNod51dLk8aZjGE=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3T+yYCl6VVsQKaYBhq+WD34sEh40+mOMFHOzqFoFmRM=
+			NYgFd4IOUXY9/lPqSN/OS31dS/AQJyxSPgz0Hj7g9fU=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -139,28 +139,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3T+yYCl6VVsQKaYBhq+WD34sEh40+mOMFHOzqFoFmRM=
+			NYgFd4IOUXY9/lPqSN/OS31dS/AQJyxSPgz0Hj7g9fU=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			421zs0P9dT68It20MHeaQWhiWd67rxpXYnlUSAvwnIE=
+			g5yB2Ele8HamamdTEor9Jc/6JSDQpa01y7PRoPzB9Ss=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gGa2cZZ0yzSycvaARM9CJFIbybo29Z/J5fYSVNnvckU=
+			2OW1nSNuYk3c4OjhpJ8sINuoi11vaNod51dLk8aZjGE=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9vU/LZMgHkIrbBoJF429qhUHpz1ry9BOHumpYCyxLnE=
+			ctqAQJDXCDrTuHUcXAtXculdRf/zl6xQWvAJl7NMvOE=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -174,14 +174,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9vU/LZMgHkIrbBoJF429qhUHpz1ry9BOHumpYCyxLnE=
+			ctqAQJDXCDrTuHUcXAtXculdRf/zl6xQWvAJl7NMvOE=
 			</data>
 		</dict>
 		<key>Modules/UGBPaymentSwiftSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAJXsH7axiZXgW1HlydQ3zhbU4G1I4cWx5WOe8nGxlk=
+			k3jhkoGeqaKnC04VztjpgQQmKMFMBkZMAq+qgEnDFWs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
