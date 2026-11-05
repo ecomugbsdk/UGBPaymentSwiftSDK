@@ -14,12 +14,14 @@ import _Concurrency
 import _PassKit_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum PaymentAction {
+public enum PaymentAction : Swift.String {
   case purchase
   case purchase_apay
-  public static func == (a: UGBPaymentSwiftSDK.PaymentAction, b: UGBPaymentSwiftSDK.PaymentAction) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -28,8 +30,9 @@ public class PaymentData {
   public var amountConfig: UGBPaymentSwiftSDK.AmountConfig
   public var transactionConfig: UGBPaymentSwiftSDK.TransactionConfig
   public var applePayConfig: UGBPaymentSwiftSDK.ApplePayConfig?
+  public var details: UGBPaymentSwiftSDK.PaymentDetails?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(merchantConfig: UGBPaymentSwiftSDK.MerchantConfig, amountConfig: UGBPaymentSwiftSDK.AmountConfig, transactionConfig: UGBPaymentSwiftSDK.TransactionConfig, applePayConfig: UGBPaymentSwiftSDK.ApplePayConfig?)
+  public init(merchantConfig: UGBPaymentSwiftSDK.MerchantConfig, amountConfig: UGBPaymentSwiftSDK.AmountConfig, transactionConfig: UGBPaymentSwiftSDK.TransactionConfig, applePayConfig: UGBPaymentSwiftSDK.ApplePayConfig?, details: UGBPaymentSwiftSDK.PaymentDetails? = nil)
   #endif
   @objc deinit
 }
@@ -55,9 +58,6 @@ public class UGBPaymentSDK {
   public func setTextSettings(customTexts: UGBPaymentSwiftSDK.TextSettings)
   public var paymentCompletion: ((UGBPaymentSwiftSDK.ResultData) -> Swift.Void)?
   public func paymentInit(from parentViewController: UIKit.UIViewController, paymentDataString: Swift.String, apiKey: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func presentLibraryViewController(from parentViewController: UIKit.UIViewController, toSuccess successController: UIKit.UIViewController?, toError errorController: UIKit.UIViewController?, environment: UGBPaymentSwiftSDK.Environment, paymentData: UGBPaymentSwiftSDK.PaymentData)
-  #endif
   @objc deinit
 }
 public class ApplePayConfig {
@@ -79,6 +79,30 @@ public class TransactionConfig {
 extension UIKit.UIColor {
   public static func colorFromHex(_ hex: Swift.String) -> UIKit.UIColor
 }
+public class PaymentDetails {
+  final public let date: Swift.String?
+  final public let bankName: Swift.String?
+  final public let terminal: Swift.String?
+  final public let orderId: Swift.String?
+  final public let fullName: Swift.String?
+  final public let recipients: [UGBPaymentSwiftSDK.PaymentDetailsRecipient]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(json: Any?)
+  #endif
+  public var hasContent: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PaymentDetailsRecipient {
+  final public let amount: Swift.String?
+  final public let receiver: Swift.String?
+  final public let edrpou: Swift.String?
+  final public let iban: Swift.String?
+  final public let payText: Swift.String?
+  final public let mcc: Swift.String?
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class LongPollingManager {
   public var paymentCompletion: ((UGBPaymentSwiftSDK.ResultData) -> Swift.Void)?
   public func setApiKey(apiKey: Swift.String)
@@ -87,19 +111,16 @@ extension UIKit.UIColor {
   public func setCardData(cardNumber: Swift.String, cardExpiryMonth: Swift.String, cardExpiryYear: Swift.String, cardCVV: Swift.String)
   public func setStep(step: Swift.String)
   #if compiler(>=5.3) && $NonescapableTypes
-  public func messagePollingValidateApay(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void, token: Swift.String)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func backPost(withCompletion: @escaping ((any Swift.Error)?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public func messagePollingValidate(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public func initPollingV2(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?, [Swift.String : Any]?) -> Swift.Void)
+  public func messagePollingValidateApay(withCompletion completion: @escaping ((any Swift.Error)?) -> Swift.Void, token: Swift.String)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public func initPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
+  public func initPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?, [Swift.String : Any]?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public func startPolling(withCompletion completion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
@@ -125,10 +146,21 @@ public class ColorSettings {
   public var buttonPayDisabledTextColor: UIKit.UIColor?
   public var infoTextBackgroundColor: UIKit.UIColor?
   public var infoTextColor: UIKit.UIColor?
+  public var grayDarkTextColor: UIKit.UIColor?
   public var grayTextColor: UIKit.UIColor?
+  public var grayLightTextColor: UIKit.UIColor?
   public var summaryBackgroundColor: UIKit.UIColor?
   public var summaryTextColor: UIKit.UIColor?
   public var summarySeparatorColor: UIKit.UIColor?
+  public var requisitesButtonTextColor: UIKit.UIColor?
+  public var requisitesButtonBorderColor: UIKit.UIColor?
+  public var requisitesBackgroundColor: UIKit.UIColor?
+  public var requisitesTitleTextColor: UIKit.UIColor?
+  public var requisitesContentTextColor: UIKit.UIColor?
+  public var requisitesSeparatorColor: UIKit.UIColor?
+  public var separatorTextColor: UIKit.UIColor?
+  public var selectedMethodLabelTextColor: UIKit.UIColor?
+  public var selectedMethodBgColor: UIKit.UIColor?
   public var textFieldColor: UIKit.UIColor?
   public var textFieldPlaceholderColor: UIKit.UIColor?
   public var textFieldActiveBorderColor: UIKit.UIColor?
@@ -179,6 +211,7 @@ public class TextSettings {
   public var infoTextString: Swift.String
   public var infoTextLinkString: Swift.String
   public var infoTextLinkURLString: Swift.String
+  public var separatorTextString: Swift.String
   public var sumLabelTextString: Swift.String
   public var commissionLabelTextString: Swift.String
   public var totalLabelTextString: Swift.String
@@ -193,6 +226,9 @@ public class TextSettings {
   public var invalidCardNumberErrorString: Swift.String
   public var invalidExpiryDateErrorString: Swift.String
   public var invalidCvvErrorString: Swift.String
+  public var paymentMethodApplePayString: Swift.String
+  public var paymentMethodCardString: Swift.String
+  public var requisitesTextString: Swift.String
   public var alertTextString: Swift.String
   public var alertEmojiString: Swift.String
   public var navigationButtonString: Swift.String
@@ -225,5 +261,6 @@ extension UGBPaymentSwiftSDK.TextSettings {
 }
 extension UGBPaymentSwiftSDK.PaymentAction : Swift.Equatable {}
 extension UGBPaymentSwiftSDK.PaymentAction : Swift.Hashable {}
+extension UGBPaymentSwiftSDK.PaymentAction : Swift.RawRepresentable {}
 extension UGBPaymentSwiftSDK.Environment : Swift.Equatable {}
 extension UGBPaymentSwiftSDK.Environment : Swift.Hashable {}
